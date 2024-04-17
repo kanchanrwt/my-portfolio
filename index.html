@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Kanchan - Front-End Developer</title>
+  <meta name="title" content="Kanchan Rawat Web & App Developer">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="kanchan resume 3.pdf" class="navbar-link">Resume</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#blog-3" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Kanchan</h1>
+
+            <p class="hero-subtitle">
+              Creative Front-End Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="photo.jpeg" width="800" height="800" alt="kane williams" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I’m Kanchan and I am creative Front-End developer who
+              dream making the world better place by
+              creating captivating products.
+            </p>
+
+            <a href="kanchan resume 3.pdf" class="btn has-before">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-labelledby="service-label" id="services">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Services That I Provide
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Services</h2>
+            </div>
+
+            <p class="section-text">
+              Front-end developer services focus on creating the user
+              interface and user experience of a website or
+              application. It involves using HTML, CSS, and JavaScript to
+              create a visually appealing and interactive
+              user interface that is optimized for different devices and
+              screen sizes.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <i class="fa-brands fa-html5"></i>
+                    <!-- <ion-icon name="desktop-outline"></ion-icon> -->
+                  </div>
+
+                  <h3 class="h3 card-title">html</h3>
+
+                  <p class="card-text">
+                    HyperText Markup Language or HTML is the standard markup
+                    language for documents designed to be
+                    displayed in a web browser. It defines the content and
+                    structure of web content. It is often
+                    assisted by technologies such as Cascading Style Sheets
+                    (CSS) and scripting languages such as
+                    JavaScript.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <!-- <ion-icon name="podium-outline"></ion-icon> -->
+                  </div>
+
+                  <h3 class="h3 card-title">Css</h3>
+
+                  <p class="card-text">
+                    CSS, or Cascading Style Sheets, offers a flexible way to
+                    style web content, with styles originating
+                    from browser defaults, user preferences, or web designers.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <!-- <ion-icon name="basket-outline"></ion-icon> -->
+                    <i class="fa-brands fa-js"></i>
+                  </div>
+
+                  <h3 class="h3 card-title">JavaScript</h3>
+
+                  <p class="card-text">
+                    What Is JavaScript? JavaScript (JS) is a cross-platform,
+                    object-oriented programming language used
+                    by developers to make web pages interactive. It allows
+                    developers to create dynamically updating
+                    content, use animations, pop-up menus, clickable buttons,
+                    control multimedia, etc.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <!-- <ion-icon name="color-filter-outline"></ion-icon> -->
+                    <i class="fa-brands fa-bootstrap"></i>
+                  </div>
+
+                  <h3 class="h3 card-title">bootstrap</h3>
+
+                  <p class="card-text">
+                    What is Bootstrap? Bootstrap is a free, open source
+                    front-end development framework for the creation
+                    of websites and web apps. Designed to enable responsive
+                    development of mobile-first websites,
+                    Bootstrap provides a collection of syntax for template
+                    designs.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <!-- <ion-icon name="megaphone-outline"></ion-icon> -->
+                    <i class="fa-brands fa-wordpress"></i>
+                  </div>
+
+                  <h3 class="h3 card-title">Wordpress</h3>
+
+                  <p class="card-text">
+                    What is WordPress? WordPress is a content management
+                    system (CMS) that allows you to host and build
+                    websites. WordPress contains plugin architecture and a
+                    template system, so you can customize any
+                    website to fit your business, blog, portfolio, or online
+                    store.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <!-- <ion-icon name="chatbubbles-outline"></ion-icon> -->
+                    <i class="fa-solid fa-hashtag"></i>
+                  </div>
+
+                  <h3 class="h3 card-title">Social Media</h3>
+
+                  <p class="card-text">
+                    you can connect with me on socialmeadia as well like
+                    instagram, facebook, github and linkedin.
+                  </p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">I Make The websites</p>
+
+          <h2 class="h2 section-title">I Develop & Create Digital
+            Future.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+
+              </p>
+
+              <p class="section-text">
+
+              </p>
+
+              <a href="https://mail.google.com/mail/kanchanrawat4042@gmail.com"
+                class="btn has-before">kanchanrawat@4042gmail.com</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Html</p>
+
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">CSS</p>
+
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">JavaScript</p>
+
+                    <data class="progress-value" value="75">75%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 75%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Bootstarp</p>
+
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">My
+              Works</p>
+
+            <h2 class="h2 section-title" id="portfolio">Portfolio</h2>
+          </div>
+
+          <p class="section-text">
+            Highly motivated and creative Fresher Frontend Devolper with
+            a
+            passion for designing user-friendly websites. Proven ability
+            to
+            collaborate with teams to implement responsive web design
+            and
+            optimize website performance, resulting in increased
+            traffic,
+            decreased bounce rates, and improved conversion rates. Stay
+            up-to-date on emerging technologies and trends to deliver
+            innovative design solutions that enhance user engagement and
+            satisfaction.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="assets/images/latte1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Starbucks</h3>
+
+                  <p class="card-text">bootstap project</p>
+                </div>
+
+                <a href="starbucks bootstrap/starbucks.html" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="nursery website/img/backyard.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Nursury</h3>
+
+                  <p class="card-text">Html and CSS based responsive
+                    project</p>
+                </div>
+
+                <a href="nursery website/index.html" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="Omnifood-main/img/eating.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Omnifood-Main</h3>
+
+                  <p class="card-text">HTML CSS & JS using Project</p>
+                </div>
+
+                <a href="Omnifood-main/index.html" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <!-- <li class="slider-item">
+                <div class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600;">
+
+                  <img src="./assets/images/portfolio-4.jpg" width="600"
+                    height="600" loading="lazy" alt="portfolio"
+                    class="img-cover">
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Peaky Blinders</h3>
+
+                    <p class="card-text">Website / UX Design</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+
+                </div>
+              </li> -->
+
+            <!-- <li class="slider-item">
+                <div class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600;">
+
+                  <img src="./assets/images/portfolio-5.jpg" width="600"
+                    height="600" loading="lazy" alt="portfolio"
+                    class="img-cover">
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Design Zoom</h3>
+
+                    <p class="card-text">Branding / Design</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600;">
+
+                  <img src="./assets/images/portfolio-6.jpg" width="600"
+                    height="600" loading="lazy" alt="portfolio"
+                    class="img-cover">
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Out Zone</h3>
+
+                    <p class="card-text">UX Design / Web App</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+
+                </div>
+              </li> -->
+
+            <!-- </ul>
+
+              <div class="slider-controls">
+                <button class="slider-control prev" data-slider-prev
+                  aria-label="Slide to previous item">
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+
+                <button class="slider-control next" data-slider-next
+                  aria-label="Slide to next item">
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+              </div>
+
+            </div> -->
+
+      </section>
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label" id="blog-3">
+        <div class="container">
+
+          <p class="section-subtitle" id="blog-label">Recent search</p>
+
+          <h2 class="h2 section-title">About this feild</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="nursery website/img/frontend.jpg" width="700" height="470" loading="lazy" alt
+                    class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-24">
+
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">What is frontend
+                      Devolper</h3>
+
+                    <p class="card-text">
+                      A front-end developer is a type of software
+                      developer who specializes in creating and designing
+                      the user interface (UI) and user experience (UX) of
+                      websites and web applications. The primary
+                      responsibility of a front-end developer is to ensure
+                      that the visual and interactive aspects of a
+                      website or application are user-friendly,
+                      aesthetically pleasing, and functionally efficient.
+
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog-2.jpg" width="700" height="470" loading="lazy"
+                    alt="UX in Ecommerce – 5 things to avoid." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div>
+                    <h3 class="h3 card-title">What Does a Front-End
+                      Developer Do?
+                    </h3>
+
+                    <p class="card-text">
+                      A front-end developer creates websites and
+                      applications using web languages such as HTML, CSS,
+                      and
+                      JavaScript that allow users to access and interact
+                      with the site or app. When you visit a website,
+                      the design elements you see were created by a
+                      front-end developer.
+                    </p>
+
+                    <a href="login/index.html" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title" id="contact">Get in touch </p>
+        </li>
+
+        <li>
+          <a href="https://mail.google.com/mail/kanchanrawat4042@gmail.com"
+            class="footer-link">kanchanrawat4042@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Location</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">India-Delhi</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://github.com/kanchanrwt" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/kanchanrawat__" class="social-link">
+
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.facebook.com/kanchan rawat" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/public-profile/settings" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
